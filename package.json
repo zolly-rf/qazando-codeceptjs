@@ -1,0 +1,25 @@
+{
+  "name": "cursoappiumcodecept",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:cadastro": "npx codeceptjs run ./tests/students_test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^1.22.2",
+    "appium-doctor": "^1.16.0",
+    "codeceptjs": "^3.2.2",
+    "random-number": "^0.0.9",
+    "webdriver": "^7.16.11"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.0.1",
+    "node-random-name": "^1.0.1",
+    "webdriverio": "^6.12.1"
+  }
+}
